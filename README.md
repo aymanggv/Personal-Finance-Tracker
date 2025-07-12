@@ -35,13 +35,13 @@ Run the application:
 - Choose between Income (I) or Expense (E)
 - Optional description field
 
-2. View transactions and summary:
+### View transactions and summary:
 - Specify a date range (dd-mm-yyyy format)
 - View all transactions in the period
 - See summary statistics
 - Option to visualize data with a plot
 
-3. Exit the application
+### Exit the application
 
 ## Data Storage
 All transactions are stored in finance_data.csv with the following columns:
