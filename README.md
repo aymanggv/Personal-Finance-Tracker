@@ -2,6 +2,8 @@
 
 A simple command-line application to track income and expenses, with visualization capabilities.
 
+---
+
 ## Features
 
 - Add new transactions with date, amount, category (Income/Expense), and optional description
@@ -9,6 +11,8 @@ A simple command-line application to track income and expenses, with visualizati
 - Display summary statistics (total income, total expenses, net savings)
 - Visualize income and expenses over time with matplotlib plots
 - Data persistence using CSV files
+
+---
 
 ## Installation
 
@@ -22,26 +26,33 @@ A simple command-line application to track income and expenses, with visualizati
    pip install pandas matplotlib
    ```
 
+---
+
 ## Usage
 
 Run the application:
   ```bash
   python main.py
   ```
+
+---
+
 ## Menu Options
-### Add a new transaction:
+#### Add a new transaction:
 - Enter transaction details (date defaults to today)
 - Amount must be positive
 - Choose between Income (I) or Expense (E)
 - Optional description field
 
-### View transactions and summary:
+#### View transactions and summary:
 - Specify a date range (dd-mm-yyyy format)
 - View all transactions in the period
 - See summary statistics
 - Option to visualize data with a plot
 
-### Exit the application
+#### Exit the application
+
+---
 
 ## Data Storage
 All transactions are stored in finance_data.csv with the following columns:
@@ -49,6 +60,8 @@ All transactions are stored in finance_data.csv with the following columns:
 - amount (float)
 - category (Income/Expense)
 - description (optional text)
+
+---
 
 ## Code Structure
 1. main.py: Contains the main application logic and menu system
@@ -61,10 +74,14 @@ All transactions are stored in finance_data.csv with the following columns:
 - Category validation (I/E)
 - Description input
 
+---
+
 ## Dependencies
 1. Python 3.x
 2. pandas
 3. matplotlib
+
+---
 
 ## Example Usage
 ```text
