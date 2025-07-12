@@ -29,7 +29,7 @@ Run the application:
   python main.py
   ```
 ## Menu Options
-#### Add a new transaction:
+### Add a new transaction:
 - Enter transaction details (date defaults to today)
 - Amount must be positive
 - Choose between Income (I) or Expense (E)
